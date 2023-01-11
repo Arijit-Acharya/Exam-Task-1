@@ -1,0 +1,241 @@
+/* General section */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+    ;
+}
+
+
+.container {
+    border: 2px solid red;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Specific sections */
+
+/* Available-in section */
+
+.available-in-row {
+    border: 2px solid #032a31;
+    background-color: #032a31;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address-time,
+.socialmedia {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+
+}
+
+.add-time-cols {
+    padding: 0 10px;
+    width: 50%;
+}
+
+.add-time,
+.socialmedia-icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 15px;
+}
+
+.add-time-img,
+.socialmedia-icons img {
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+.address {
+    justify-content: flex-end;
+}
+
+.time {
+    justify-content: flex-start;
+    border-left: 1px solid #3d5b61;
+}
+
+.socialmedia-cols {
+    width: 25%;
+    padding: 0 10px;
+}
+
+.socialmedia-icons {
+    border-left: 1px solid #3d5b61;
+}
+
+.fb {
+    border-left: none;
+
+}
+
+/* end of available in section */
+
+
+
+
+
+
+
+/* begin of  logo-contact section */
+.logo-contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+
+.logo-contact-cols {
+    width: 50%;
+}
+
+.logo {
+    padding: 15px 65px;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.contact-cols {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.telephone,
+.email {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.telephone-icon,
+.email-icon {
+    padding: 10px 5px;
+}
+
+.telephone-no,
+.email-address {
+    padding: 8px 10px;
+}
+
+.telephone-no span,
+.email-address span {
+    color: #818181;
+}
+
+.telephone-no p,
+.email-address a {
+    font-weight: 700;
+}
+
+.telephone-no p {
+    margin-block: 0;
+}
+
+.email-address {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.email-address a {
+    text-decoration: none;
+    color: black;
+}
+
+/* end of logo-contact section */
+
+
+
+
+/* begining of navbar section */
+
+
+.navbar-section-row {
+    background-color: #813d16;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.navbar-cols {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.collapseable-navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collapseable-navbar-cols {
+    width: 16.6%;
+    padding: 10px ;
+}
+
+.collapseable-navbar-cols-row a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 10px;
+    font-weight: 700;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 100px;
+}
+.search-bar .search{
+    opacity: 0.5;
+} 
+
+
+/* beginnig of banner section */
+
+.banner-section-row {
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* begining of service section */
+
+.service-section-row{
+    background-color: #032a31;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.service-section-cols{
+    width: 16.6%;
+    padding: 0 10px;
+    color: white;
+}
+
+.service-cols-row{
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
